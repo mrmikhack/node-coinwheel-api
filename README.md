@@ -1,5 +1,5 @@
 # node-coinwheel-api
-Простой модуль для работы с WheelCoin из CoinWheel
+Простой модуль для работы с CoinWheel
 
 
 
