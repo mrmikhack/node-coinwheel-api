@@ -27,7 +27,7 @@ const client = new CoinWheel({
 
 # Доступные методы
 
-# getMyTop  
+### getMyTop  
 Показывает ваши данные в топе (место, сколько выиграли)
 
 ```js
