@@ -39,3 +39,22 @@ async function run() {
 
 run().catch(console.error);
 ```
+
+
+
+### getBalance
+Получить баланс любого пользователя/пользователей
+```js
+let ids = [1]
+async function run() {
+    const result = await client.api.getBalance(ids);
+    console.log(result);
+}
+
+
+run().catch(console.error);
+```
+
+|Параметр|Тип|Описание|
+|-|-|-|
+|ids|Number[]|Массив айди пользователей для получения баланса|
