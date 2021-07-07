@@ -72,3 +72,21 @@ async function run() {
 
 run().catch(console.error);
 ```
+
+
+### sendPayment
+Получить баланс любого пользователя/пользователей
+```js
+async function run() {
+    const result = await client.api.sendPayment(id, amount);
+    console.log(result);
+}
+
+
+run().catch(console.error);
+```
+
+|Параметр|Тип|Описание|
+|-|-|-|
+|id|Number|Айди пользователя, которому нужно отправить коины|
+|amount|Number|Сумма, которую нужно отправить пользователю|
