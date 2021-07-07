@@ -58,3 +58,17 @@ run().catch(console.error);
 |Параметр|Тип|Описание|
 |-|-|-|
 |ids|Number[]|Массив пользователей для получения баланса|
+
+
+
+### getMyBalance
+Получить свой баланс
+```js
+async function run() {
+    const result = await client.api.getMyBalance();
+    console.log(result);
+}
+
+
+run().catch(console.error);
+```
