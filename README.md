@@ -75,7 +75,7 @@ run().catch(console.error);
 
 
 ### sendPayment
-Получить баланс любого пользователя/пользователей
+Отправить коины другому пользователю
 ```js
 async function run() {
     const result = await client.api.sendPayment(id, amount);
